@@ -1,0 +1,110 @@
+.modal-header {
+    background-color: #004987;
+    color: white;
+}
+.modal-header button {
+    background: transparent;
+    border: 0;
+    font-size: 1.8rem;
+    position: absolute;
+    right: 13px;
+    color: white;
+}
+.top-header, .sidebar-header {
+}
+.logo{
+    height: 35px;
+    margin-left: 21px;
+}
+.icon-nav{
+    font-size: 1.3rem;
+}
+.sidebar-wrapper .metismenu{
+    padding: 0!important;
+}
+.sidebar-wrapper .metismenu a:hover,
+.sidebar-wrapper .metismenu a:focus,
+.sidebar-wrapper .metismenu a:active,
+.sidebar-wrapper .metismenu .mm-active>a {
+    color: #004a87;
+    text-decoration: none;
+    background: rgba(0,74,135,.1);
+}
+.card-title button{
+    float: right;
+}
+.card-title h5{
+    font-weight: 600;
+}
+.card-title::after {
+    content: "\00a0";
+    clear: both;
+}
+hr {
+    margin: 0.5rem 0!important;
+}
+.btn-sm .mdi{
+    font-size: 15px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #004987!important;
+    border-color: #004987!important;
+}
+.text-primary{
+    color: #004987!important;
+}
+@media screen and (min-width: 1025px) {
+    .wrapper.toggled .sidebar-header img {
+        margin-left: 80px;
+    }
+
+    .wrapper.toggled.sidebar-hovered .sidebar-header img {
+        margin-left: 0px;
+    }
+
+    .wrapper.toggled .content-user {
+        display: none;
+    }
+
+    .wrapper.toggled.sidebar-hovered .content-user {
+        display: block;
+    }
+}
+.content-user{
+    background: #fb4f08;
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    min-height: 220px;
+    padding-top: 100px;
+}
+.content-user i {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+}
+.content-user img{
+    position: absolute;
+    top: -75px;
+    right: 50px;
+    width: 150px;
+    border: 5px solid #fff;
+}
+.content-user button{
+    color: #f8f8f8!important;
+}
+.logo-db{
+    margin-left: 20px;
+}
+.sidebar-wrapper .metismenu a {
+    padding-left: 35px!important;
+}
+.sidebar-wrapper .metismenu {
+    height: calc(100vh - 70px);
+    overflow: auto;
+}
